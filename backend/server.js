@@ -6,7 +6,7 @@ import connectcloudinary from './config/Cloudinary.js';
 import adminRouter from './routes/adminRoute.js';
 import bcrypt from 'bcryptjs';
 // import router from './routes/AuthRouter.js';
-import User from './models/UserModel.js';
+import User from './models/userModel.js';
 import jwt from 'jsonwebtoken';
 
 

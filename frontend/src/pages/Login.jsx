@@ -22,8 +22,8 @@ const Login = () => {
     try {
       const url =
         state === 'Sign Up'
-          ? 'http://localhost:4000/signup'
-          : 'http://localhost:4000/login'
+          ? 'https://prescripto-qna6.onrender.com/signup'
+          : 'https://prescripto-qna6.onrender.com/login'
 
       const payload =
         state === 'Sign Up' ? { name, email, password } : { email, password }
